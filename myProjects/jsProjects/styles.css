@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 1rem .5rem;
+}
+
+.hero {
+    box-shadow: 0 0 1px black;
+    height: 10vh;
+}
+
+.btn {
+    width: 5rem;
+    height: 90%;
+    margin: .25rem 10vw;
+}
+
+.background {
+    background: rgba(220, 100, 200, .5);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .3);
+    width: 90%;
+    height: 70vh;
+    border-radius: .5rem;
+}
+
+.bkg-grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+}
