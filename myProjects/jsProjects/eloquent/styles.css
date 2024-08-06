@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background: lightslategray;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 90vw;
+    padding: .25rem;
+}
+
+.box {
+    border: 1px solid #222;
+    border-radius: 1rem;
+    color: #222;
+    flex: auto;
+    font: 900 13px/18px Verdana, Geneva, Tahoma, sans-serif;
+    margin: .25rem;
+    padding: .25rem;
+    text-align: center;
+}
