@@ -8,5 +8,5 @@ url = input("URL: ").strip()
 # print(f"Username: {username}")
 
 
-if matches := re.search(r"^https?://(?:www\.)?steamcommunity\.com/id/(.+)$", url, re.IGNORECASE):
+if matches := re.search(r"^https?://(?:www\.)?steamcommunity\.com/id/([a-z0-9_])$", url, re.IGNORECASE):
     print(f"Username:", matches.group(2))
